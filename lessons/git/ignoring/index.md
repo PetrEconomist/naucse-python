@@ -290,6 +290,8 @@ můžeš napsat jen `git commit` s tečkou na konci:
 ```console
 $ git commit .
 ```
+> [note]
+> V příkazové řádce ve Windows `git commit .` nefungoval. Bylo nutné použít `git add .` a  poté `git commit`, poté vše proběhlo podle očekávání.
 
 To automaticky přidá *všechny* neignorované soubory, které `git status` ukazuje
 červeně.
